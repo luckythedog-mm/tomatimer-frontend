@@ -25,7 +25,7 @@ export default function App() {
         token = "";
       }
       const tokenRes = await Axios.post(
-        "http://tomatimer.herokuapp.com//users/tokenIsValid",
+        "http://tomatimer.herokuapp.com/users/tokenIsValid",
         null,
         { headers: { "x-auth-token": token } }
       );
