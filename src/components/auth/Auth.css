@@ -1,20 +1,22 @@
-* {
-  box-sizing: border-box;
-  }
-  
+
 *:focus {
     outline: none;
+}
+.auth-container{
+  padding:160px;
 }
 
 /*register----------------------------*/
 .register{
   margin: 20px auto;
   width: 300px;
+  
 }
 
 .reg-title{
   text-align: center;
   color: white;
+  padding: 1rem;
 }
 .reg-screen{
   background-color: #2c6e49 ;
@@ -29,7 +31,7 @@
 /*hola*/
 
 /*login------------------------------*/
-/*supongo la cajita*/
+
 .login {
   margin: 20px auto;
   width: 300px;
@@ -41,10 +43,16 @@
   color: white;
 }
 
+.form-input{
+  padding:.5rem;
+  width:15rem;
+  height:2rem;
+}
+
 /*la caja del login*/
 .login-screen {
   background-color: #2c6e49 ;
-  padding: 20px;
+  padding:2rem;
   border-radius: 5px
 }
 
@@ -52,6 +60,7 @@
 .log-title {
   text-align: center;
   color: white;
+  padding: 1rem;
 }
 
 /*formulario login*/
@@ -63,6 +72,10 @@
 
 .control-group {
   margin-bottom: 10px;
+}
+
+.auth-btn{
+  padding:1rem;
 }
 
 /*Error*/

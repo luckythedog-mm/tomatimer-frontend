@@ -33,40 +33,51 @@ export default function Login() {
     }
   };
   return (
-    <div>
+    <div className="auth-container">
       <div className="login">
         <div className="login-screen">
           <div className="log-title">
-          <h2>Log In</h2>
-          {error && (
-           <ErrorNotice message={error} clearError={() => setError(undefined)} />
-           )}
+            <h2>Log In</h2>
+            {error && (
+              <ErrorNotice
+                message={error}
+                clearError={() => setError(undefined)}
+              />
+            )}
           </div>
           <form className="login-form" onSubmit={submit}>
             <div className="control-group">
-              <label htmlFor="login-email" className='form-label'>Email</label><br></br>
+              <label htmlFor="login-email" className="form-label">
+                Email
+              </label>
+              <br></br>
               <input
                 className="form-input"
                 id="login-email"
                 type="email"
+                placeholder="example@gmail.com"
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div className="control-group">
-              <label htmlFor="login-password" className='form-label'>Password</label><br></br>
+              <label htmlFor="login-password" className="form-label">
+                Password
+              </label>
+              <br></br>
               <input
                 className="form-input"
                 id="login-password"
                 type="password"
+                placeholder="password"
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <Button  buttonStyle="btn--outline">log in </Button>
+            <div className="auth-btn">
+              <Button buttonStyle="btn--outline">log in </Button>
+            </div>
           </form>
-          
         </div>
       </div>
     </div>
   );
 }
-

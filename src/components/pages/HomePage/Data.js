@@ -2,11 +2,11 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Exclusive Access",
-  headline: "Learn to manage your time",
+  topLine: "ACCESO EXCLUSIVO",
+  headline: "Aprende a manejar tu tiempo",
   description:
-    "Get  exclusive access to our application and use all its tools to manage your time efficiently",
-  buttonLabel: "Get Started",
+    "Obtenga acceso exclusivo a nuestra aplicación y utilice todas sus herramientas para administrar su tiempo de manera eficiente",
+  buttonLabel: "Empieza Ahora",
   imgStart: '',
   img: 'images/svg-1.svg',
   alt: 'Credit Card'
@@ -16,11 +16,11 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY TO START',
-  headline: 'Super fast, simple and intuitive ',
+  topLine: 'FACIL DE INICIAR',
+  headline: 'Súper rápido, simple e intuitivo',
   description:
-    "TOMATIMER uses the spirit of the Pomodoro Technique to make use of time as our greatest ally to achieve what you want to do the way you want to do it.",
-  buttonLabel: 'Start Now',
+    "TOMATIMER utiliza el espíritu de la Técnica Pomodoro para aprovechar el tiempo como nuestro mayor aliado para lograr lo que quieres hacer de la manera que quieres.",
+  buttonLabel: 'Empieza Ahora',
   imgStart: 'start',
   img: 'images/svg-2.svg',
   alt: 'Vault'

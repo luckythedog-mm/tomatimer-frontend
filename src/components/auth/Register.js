@@ -38,51 +38,74 @@ export default function Register() {
   };
 
   return (
-    <div>
+    <div className="auth-container">
       <div className="register">
         <div className="reg-screen">
           <div className="reg-title">
-          <h2>Register</h2>
-           {error && (
-           <ErrorNotice message={error} clearError={() => setError(undefined)} />
-           )}
+            <h2>Register</h2>
+            {error && (
+              <ErrorNotice
+                message={error}
+                clearError={() => setError(undefined)}
+              />
+            )}
           </div>
           <form className="register-form" onSubmit={submit}>
             <div className="control-group">
-              <label htmlFor="register-email" className="form-label">Email</label><br></br>
+              <label htmlFor="register-email" className="form-label">
+                Email
+              </label>
+              <br></br>
               <input
-                id="register-email"
+                className="form-input"
                 type="email"
+                placeholder="email"
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div className="control-group">
-              <label htmlFor="register-password" className="form-label">Password</label><br></br>
+              <label htmlFor="register-password" className="form-label">
+                Password
+              </label>
+              <br></br>
               <input
-                id="register-password"
+                className="form-input"
                 type="password"
+                placeholder="password"
                 onChange={(e) => setPassword(e.target.value)}
               />
-            </div><br></br>
+            </div>
+            <br></br>
             <div className="control-group">
+              <label htmlFor="register-password" className="form-label">
+                Verify password
+              </label>
+              <br></br>
               <input
-               type="password"
-               placeholder="Verify password"
-              onChange={(e) => setPasswordCheck(e.target.value)}
+                className="form-input"
+                type="password"
+                placeholder="Verify password"
+                onChange={(e) => setPasswordCheck(e.target.value)}
               />
             </div>
             <div className="control-group">
-              <label htmlFor="register-display-name" className="form-label">Display name</label><br></br>
+              <label htmlFor="register-display-name" className="form-label">
+                Display name
+              </label>
+              <br></br>
               <input
-               id="register-display-name"
-               type="text"
-               onChange={(e) => setDisplayName(e.target.value)}
+                className="form-input"
+                type="text"
+                placeholder="display name"
+                onChange={(e) => setDisplayName(e.target.value)}
               />
             </div>
-            <Button  buttonStyle="btn--outline">submit </Button>
+            <div className="auth-btn">
+              <Button buttonStyle="btn--outline">submit </Button>
+            </div>
           </form>
         </div>
       </div>
-    </div>    
+    </div>
   );
 }

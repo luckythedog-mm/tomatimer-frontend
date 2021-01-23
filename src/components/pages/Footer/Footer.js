@@ -16,13 +16,13 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/sign-up'>Como funciona</Link>
+            <Link to='/'>Condiciones de servicio</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            <Link to='/'>Contactanos</Link>
+            <Link to='/'>Soporte</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>

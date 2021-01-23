@@ -5,7 +5,7 @@ import { Button } from "../../buttons/Button";
 import { BsXDiamondFill } from "react-icons/bs";
 import { GiCrystalize } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
-import './Pricing.css';
+import "./Pricing.css";
 
 function Pricing() {
   return (
@@ -21,14 +21,14 @@ function Pricing() {
                     <FaFire />
                   </div>
                   <h3>Starter</h3>
-                  <h4>Free</h4>
+                  <h4>Gratis</h4>
                   <ul className="pricing__container-features">
-                    <li>Try it out</li>
-                    <li>basic functionalities </li>
-                    <li>don't waste your time </li>
+                    <li>Pruébalo</li>
+                    <li>funcionalidades básicas</li>
+                    <li>no pierdas tu tiempo </li>
                   </ul>
                   <Button buttonSize="btn--wide" buttonColor="primary">
-                    Choose Plan
+                    Escoger Plan
                   </Button>
                 </div>
               </Link>
@@ -39,15 +39,15 @@ function Pricing() {
                     <BsXDiamondFill />
                   </div>
                   <h3>Gold</h3>
-                  <h4>$3.99</h4>
-                  <p>per month</p>
+                  <h4>S/7.00</h4>
+                  <p>mensual</p>
                   <ul className="pricing__container-features">
-                    <li>Access to statistics</li>
-                    <li>improve your work</li>
-                    <li>the best plan </li>
+                    <li>Acceso a las estadísticas</li>
+                    <li>mejorar en tus estudios, trabajo</li>
+                    <li>EL MEJOR PLAN</li>
                   </ul>
                   <Button buttonSize="btn--wide" buttonColor="blue">
-                    Choose Plan
+                    Escoger Plan
                   </Button>
                 </div>
               </Link>
@@ -58,14 +58,14 @@ function Pricing() {
                     <GiCrystalize />
                   </div>
                   <h3>Diamond</h3>
-                  <h4>$9.99</h4>
+                  <h4>S/15.00</h4>
                   <p>per month</p>
                   <ul className="pricing__container-features">
-                    <li>Access to monthly conferences</li>
-                    <li>exclusive for diamonds</li>
+                    <li>Acceso a las conferencias mensuales</li>
+                    <li>exclusivo para los diamantes</li>
                   </ul>
                   <Button buttonSize="btn--wide" buttonColor="primary">
-                    Choose Plan
+                    Escoger Plan
                   </Button>
                 </div>
               </Link>

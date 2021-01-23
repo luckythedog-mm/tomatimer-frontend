@@ -25,12 +25,12 @@ export default function App() {
         token = "";
       }
       const tokenRes = await Axios.post(
-        "http://localhost:5000/users/tokenIsValid",
+        "http://tomatimer.herokuapp.com//users/tokenIsValid",
         null,
         { headers: { "x-auth-token": token } }
       );
       if (tokenRes.data) {
-        const userRes = await Axios.get("http://localhost:5000/users/", {
+        const userRes = await Axios.get("http://tomatimer.herokuapp.com/users/", {
           headers: { "x-auth-token": token },
         });
         setUserData({

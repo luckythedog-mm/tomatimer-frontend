@@ -3,11 +3,11 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Check your progress anywhere anytime',
+  topLine: 'ANALITICA DE DATOS',
+  headline: 'Revise su progreso en cualquier lugar y en cualquier momento',
   description:
-    'With our tomatimer application you can follow your progress and see what you need to improve',
-  buttonLabel: 'Learn More',
+    'Con nuestra aplicación de tomatimer puede seguir su progreso y ver lo que necesita para mejorar',
+  buttonLabel: 'Leer mas',
   imgStart: '',
   img: 'images/svg-3.svg',
   alt: 'Vault'
